@@ -1,0 +1,46 @@
+.ItemCard {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(135deg, #111111, #6b66ff);
+    color: #fff;
+}
+
+.imgProducto {
+    width: 200px;
+    object-fit: contain;
+}
+
+.btnProducto {
+    color: white;
+    font-size: 1.2rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+.btnProducto:hover {
+    text-decoration: underline;
+    color: #d7dce0;
+}
+
+.precio {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.Udisponibles {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+.tituloCard {
+    font-size: 30px;
+}

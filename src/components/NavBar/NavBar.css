@@ -1,0 +1,50 @@
+ .Logo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to right,
+        rgb(3, 3, 3),
+        white,
+        rgb(0, 0, 0));
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 100px;
+    padding: 10px;
+  }
+  
+  
+  
+  .navbar h3 {
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 25px;
+    background-color: #050000;
+    border-radius: 15px;
+    gap: 5px;
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+  }

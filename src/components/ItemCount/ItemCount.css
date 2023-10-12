@@ -1,0 +1,51 @@
+button {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+}
+
+.numContador {
+    border-radius: 30%;
+    padding: 1rem;
+    color: white;
+    font-size: 35px;
+    margin: 0 15px;
+}
+
+.btnCont {
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.btnAgregar {
+    background-color: white;
+    color: black;
+    border-radius: 50rem;
+}
+
+.btnAgregar:hover{
+    background-color: black;
+    color: white;
+}
